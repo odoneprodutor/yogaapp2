@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => {
   return {
     base: '/yogaflow/', // Deploy to subdirectory
     server: {
-      port: 3000,
-      host: '0.0.0.0',
+      port: 9001,
+      host: 'true',
     },
     plugins: [react()],
     define: {
