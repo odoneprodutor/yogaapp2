@@ -1,9 +1,9 @@
 <?php
-// Production Database Configuration (CloudPanel)
-$host = '127.0.0.1';
-$db   = 'yogaflowapp_yogaflow';
-$user = 'yogaflowapp';
-$pass = 'Gu132465798@'; // <--- EDIT THIS!
+// Production Database Configuration (Load from Environment Variables)
+$host = getenv('DB_HOST') ?: '127.0.0.1';
+$db   = getenv('DB_NAME') ?: 'yogaflow_db';
+$user = getenv('DB_USER') ?: 'root';
+$pass = getenv('DB_PASS') ?: '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
