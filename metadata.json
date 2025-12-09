@@ -1,0 +1,5 @@
+{
+  "name": "YogaFlow",
+  "description": "Uma aplicação de yoga zen e inteligente que gera rotinas personalizadas com base no nível, foco e tempo disponível do usuário.",
+  "requestFramePermissions": []
+}
